@@ -1,0 +1,130 @@
+body {
+    background-color: bisque;
+}
+
+div#scale {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    color:rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    transform: scale(1,1);
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+div.scale2 {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    color: azure;
+    padding: 20px;
+    border-radius: 15px;
+    transform: scale(2, 2);
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+div#translate {
+    width: 120px;
+    height: 120px;
+    background-color: coral;
+    color: azure;
+    padding: 10px;
+    border-radius: 5px;
+    transform: translate(150px, -90zpx);
+}
+
+div.Translate2 {
+    width: 80px;
+    height: 80px;
+    background-color: darkslategray;
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+    transform: translate(300px, 100px);
+}
+
+div#rotate {
+    width: 100px;
+    height: 100px;
+    background-color: lightslategray;
+    color: azure;
+    padding: 20px;
+    transform: rotate(90deg);
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+.rotate2 {
+    width: 150px;
+    height: 150px;
+    background-color: lightcoral;
+    color: white;
+    padding: 30px;
+    transform: rotate(270deg);
+    margin-left: 500px;
+    border-radius: 30px;
+}
+
+div#skew {
+    width: 200px;
+    height: 200px;
+    background-color: palevioletred;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    transform: skew(-30deg);
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.skew2 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border-radius: 50px;
+    color: white;
+    padding: 25px;
+    transform: skew(-30deg);
+    margin-left: 400px;
+    border: 5px solid white;
+}
+
+.Lora {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    color: white;
+    padding: 30px;
+    background-color: darksalmon;
+    transition: 1s ease-in;
+}
+
+.Lora:hover {
+    width: 200px;
+    height: 200px;
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(199, 119, 92);
+    cursor: pointer;
+}
+
+#speedsters {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 100px;
+    transform: scale(1);
+    transition: 2s ease-in-out;
+}
+
+#speedsters:hover {
+    transform: scale(1.5);
+    margin-bottom: 200px;
+}
+
+#engineer {
+    transform: scale(1);
+}
